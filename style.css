@@ -7,11 +7,11 @@ body{
     background-color: #b7e1ff;
 }
 nav{
-    padding: 5px;
-    height: 70px;
+    height: 100px;
     background-color: #207dc1;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .btn1{
     color: #40417c;
@@ -34,12 +34,10 @@ nav{
     margin-top: 15px;
 }
 #tituloSite{
-    height: fit-content;
-    margin: -2px;
-    padding: 16px;
+    width: 263px;
+    height: 48px;
     font-size: 30px;
     color: #40417c;
-    background-image: linear-gradient(to right bottom, #2772c1, transparent 60%);
 }
 
 /*  MAIN  */
@@ -53,12 +51,12 @@ main{
     align-items: center;
 }
 hr{
-    width: 700px;
+    width: 60vw;
 }
 .card{
     display: flex;
     height: 230px;
-    width: 600px;
+    width: 700px;
     padding: 10px;
     background-color: rgb(225, 225, 225);
     margin: 30px;
@@ -77,4 +75,30 @@ hr{
 img{
     height: 200px;
     margin: 10px;
+}
+
+@media (max-width: 930px) {
+    .card{
+        display: flex;
+        height: 24vh;
+        width: 72vw;
+        padding: 10px;
+        background-color: #e1e1e1;
+        margin: 30px;
+    }
+}
+@media (max-width: 731px) {
+    .card{
+        height: fit-content;
+        align-items: flex-start;
+    }
+
+}
+@media (max-width: 530px) {
+    p{
+        width: 179px;
+    }
+    .btnRank{
+        margin-left: -50px;
+    }
 }
