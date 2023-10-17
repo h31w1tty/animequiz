@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Anime Quiz</title>
+</head>
+<body>
+    <nav>
+        <p id="tituloSite"><strong>ANIME QUIZ</strong></p>
+        <Button class="btn1"><strong>PERSONAGENS</strong></Button>
+    </nav>
+    <main>
+
+        <br>
+        <h1>Anime Rank</h1><!-- Rankings -->
+        <hr>
+
+        <div class="card">
+            <div class="animeImg">
+                <img src="jujutsu.jpg" alt="Jujutsu">
+            </div>
+            <div class="conteudo">
+                <p>Jujutsu Kaisen é uma explosão de ação sobrenatural que combina socos alucinantes com feitiçaria desenfreada. Prepare-se para enfrentar maldições sinistras, batalhas épicas e personagens cativantes enquanto eles lutam para salvar o mundo</p><br>
+                <button class="btn1 btnRank" id="btnJujutsu">Fazer Ranking</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="animeImg">
+                <img src="dbz.webp" alt="dbz">
+            </div>
+            <div class="conteudo">
+                <p>Dragon Ball Z é o épico das lutas, onde heróis superpoderosos combatem vilões cósmicos. Prepare-se para explosões de energia, transformações incríveis e batalhas que abalam o universo!</p><br>
+                <button class="btn1 btnRank" id="btnJujutsu">Fazer Ranking</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="animeImg">
+                <img src="onepunchman.jpg" alt="Jujutsu">
+            </div>
+            <div class="conteudo">
+                <p>One Punch Man é o herói mais poderoso do planeta, e com um único soco, ele derruba qualquer inimigo. Prepare-se para muita ação e muitas risadas!</p><br>
+                <button class="btn1 btnRank" id="btnJujutsu">Fazer Ranking</button>
+            </div>
+        </div>
+
+        <br>
+        <h1>Anime Quiz</h1><!-- Quiz -->
+        <hr>
+
+        <div class="card">
+            <div class="animeImg">
+                <img src="onepunchman.jpg" alt="Jujutsu">
+            </div>
+            <div class="conteudo">
+                <p>One Punch Man é o herói mais poderoso do planeta, e com um único soco, ele derruba qualquer inimigo. Prepare-se para muita ação e muitas risadas!</p><br>
+                <button class="btn1 btnRank" id="btnJujutsu">Fazer Quiz</button>
+            </div>
+        </div>
+
+    </main>
+    
+    <script>
+        document.getElementById('btnJujutsu').addEventListener('click', function() {
+          window.location.href = "jujutsuRank.html";
+        });
+    </script>
+</body>
+</html>
