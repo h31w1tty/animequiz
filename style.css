@@ -76,6 +76,10 @@ img{
     height: 200px;
     margin: 10px;
 }
+.animeImg{
+    display: flex;
+    justify-content: center;
+}
 
 @media (max-width: 930px) {
     .card{
@@ -85,6 +89,9 @@ img{
         padding: 10px;
         background-color: #e1e1e1;
         margin: 30px;
+    }
+    main{
+        width: 90%;
     }
 }
 @media (max-width: 731px) {
@@ -96,9 +103,20 @@ img{
 }
 @media (max-width: 530px) {
     p{
-        width: 179px;
+        display: grid;
+        margin-block: 0;
+        margin-inline: 0;
     }
     .btnRank{
-        margin-left: -50px;
+        margin-left: -120px;
+    }
+}
+@media (max-width: 445px) {
+    .card{
+        display: grid;
+        justify-content: center;
+    }
+    .btnRank{
+        margin: 0;
     }
 }
