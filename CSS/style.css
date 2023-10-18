@@ -139,4 +139,10 @@ img{
     .btnRank{
         margin: 0;
     }
+    .btn1{
+        width: 30vw;
+        font-size: 8px;
+        margin: 0;
+        margin-right: 20px;
+    }
 }
