@@ -1,0 +1,51 @@
+/*  ANIME PAGE CSS  */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background-image: url('/media/jujutsu.jpg');
+}
+main{
+    background-color: #ffffffee;
+}
+.h1anime{
+    font-family: Oswald;
+}
+.cardanime{
+    display: flex;
+    justify-content: left;
+}
+.imganime{
+    height: 320px;
+    margin: 30px;
+    box-shadow: 0px 1px 20px -6px
+}
+.panime{
+    align-self: end;
+    font-size: 24px;
+    margin: 0 30px 30px 0;
+}
+
+@media (max-width: 600px) {
+    .imganime{
+        width: fit-content;
+        margin:10%;
+    }
+    .cardanime{
+        flex-direction: column;
+    }
+    .panime{
+        font-size: 18px;
+        margin: 0 5px 10px 5px;
+    }
+}
+@media (max-width: 300px){
+    .imganime{
+        width: 70%;
+        height: auto;
+        margin-inline: auto;
+    }
+    .panime{
+        width: 220px;
+    }
+}

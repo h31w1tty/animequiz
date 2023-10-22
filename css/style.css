@@ -12,6 +12,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: -1px 3px 5px -4px;
 }
 .btn1{
     color: #40417c;
@@ -25,13 +26,15 @@ nav{
     background-color: #a09eff;
     border: solid 0 #6968af;
     border-top: solid 0 #504f93;
-    border-bottom: solid #8a89dc 4px
+    border-bottom: solid #8a89dc 4px;
+    box-shadow: -1px 3px 5px -4px;
 }
 .btn1:active{
     
     background-color: #a09eff;
     border-bottom: solid 1px #8a89dc;
     margin-top: 15px;
+    box-shadow: -1px 3px 5px -5px;
 }
 .btn2{
     color: #40417c;
@@ -69,6 +72,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0px 2px 7px -2px;
 }
 hr{
     width: 60vw;
@@ -80,6 +84,7 @@ hr{
     padding: 10px;
     background-color: rgb(225, 225, 225);
     margin: 30px;
+    box-shadow: 0px 2px 7px -2px;
 }
 .conteudo{
     display: flex;
