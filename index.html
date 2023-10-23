@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
@@ -27,7 +28,7 @@
                        enquanto eles lutam para salvar o mundo
                     </p>
                     <br>
-                <button class="btn1 btnRank" id="btnJujutsu">Fazer Ranking</button>
+                <button class="btn1 btnRank" onclick="btnjujutsu()">Fazer Ranking</button>
             </div>
         </div>
         <div class="card">
@@ -42,7 +43,7 @@
                     abalam o universo!
                 </p>
                 <br>
-                <button class="btn1 btnRank" id="btnJujutsu">Fazer Ranking</button>
+                <button class="btn1 btnRank" onclick="btndbz()" >Fazer Ranking</button>
             </div>
         </div>
         <div class="card">
@@ -81,9 +82,6 @@
     
     <script>
          window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-        document.getElementById('btnJujutsu').addEventListener('click', function() {
-          window.location.href = "pages/jujutsuRank.html";
-        });
     </script>
     <script defer src="/_vercel/insights/script.js"></script>
 </body>
