@@ -33,10 +33,15 @@ main{
     }
     .cardanime{
         flex-direction: column;
+        align-items: center;
     }
     .panime{
-        font-size: 18px;
-        margin: 0 5px 10px 5px;
+        text-align: justify;
+        margin: 30px;
+        font-size: 23px;
+    }
+    .btn1{
+        font-size: 26px;
     }
 }
 @media (max-width: 300px){
