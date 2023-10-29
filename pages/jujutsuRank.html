@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/animeRank.css">
+    <link rel="stylesheet" href="/css/jujutsu.css">
     <title>Anime Quiz</title>
 </head>
+<div class="wall"></div>
+<img src="/media/load.gif" alt="loading" class="load">
 <body style="background-image: url('/media/jujutsu.jpg')">
+    <div class="art btn2" onclick="art()">arte</div>
+    <div class="voltar btn2" style="display: none;" onclick="voltar()">voltar</div>
     <nav>
         <img id="tituloSite" src="/media/animelogo.png" alt="animeQuiz">
         <Button class="btn2" onclick="home()" >
@@ -35,9 +40,19 @@
             </p>
         </div>
 
-        <button class="btn1">-- INICIAR --</button>
+        <button class="btn1" onclick="start()">-- INICIAR --</button>
         <br>
 
     </main>
+    <div class="rank" style="display: none;">
+        <b>Rank de:</b><input type="text" name="rankTitle" placeholder="personagem mais forte"><br>
+        <div class="escolhas">
+            <div class="pessoa"><img src="/media/jujutsu.jpg" alt=""></div>
+            ou
+            <div class="pessoa"><img src="/media/jujutsu.jpg" alt=""></div>
+        </div>
+        
+    </div>
+    <script src="/script/jujutsu.js"></script>
 </body>
 </html>
